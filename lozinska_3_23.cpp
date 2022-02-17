@@ -1,4 +1,4 @@
-﻿//task 23ye
+﻿//task 3.23ye
 
 #include <stdio.h>
 #include <math.h>
