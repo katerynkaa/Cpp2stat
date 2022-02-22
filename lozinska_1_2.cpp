@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 int main() {
-	double x = 2, x2, x3, x4, x6, x9, x15, x28, x64;
+	int x = 2;
+	double x2, x3, x4, x6, x9, x15, x28, x64;
 
 	x2 = x * x;
 	x3 = x * x2; 
