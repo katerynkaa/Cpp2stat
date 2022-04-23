@@ -1,6 +1,4 @@
 ﻿#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
 
 #define N1 25
 #define M1 25
