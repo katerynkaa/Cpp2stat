@@ -26,13 +26,15 @@ int main() {
         printf("Can't open file for reading.\n");
     }
     else {
-        while (!feof(pFile)) {
-            fscanf(pFile, "%s %d %s", &toy.name, &toy.price, &toy.age);
-            if (m < toy.price) {
-                m = toy.price;
-                tm = toy;
+         while (!feof(pFile)) {
+            if (fscanf(pFile, "%s %d %s", &toy.name, &toy.price, &toy.age) == 3) {
+                //fscanf(pFile, "%s %d %s", &toy.name, &toy.price, &toy.age);
+                if (m < toy.price) {
+                    m = toy.price;
+                    tm = toy;
+                }
             }
-
+            else printf("An Error occurred in file content");
         }
         fclose(pFile);
         printf("The priciest toy is\n");
