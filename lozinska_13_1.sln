@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lozinska_13_1", "lozinska_13_1.vcxproj", "{E3CD6E85-42DB-4752-868A-668A64093CF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3CD6E85-42DB-4752-868A-668A64093CF1}.Debug|x64.ActiveCfg = Debug|x64
+		{E3CD6E85-42DB-4752-868A-668A64093CF1}.Debug|x64.Build.0 = Debug|x64
+		{E3CD6E85-42DB-4752-868A-668A64093CF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3CD6E85-42DB-4752-868A-668A64093CF1}.Debug|x86.Build.0 = Debug|Win32
+		{E3CD6E85-42DB-4752-868A-668A64093CF1}.Release|x64.ActiveCfg = Release|x64
+		{E3CD6E85-42DB-4752-868A-668A64093CF1}.Release|x64.Build.0 = Release|x64
+		{E3CD6E85-42DB-4752-868A-668A64093CF1}.Release|x86.ActiveCfg = Release|Win32
+		{E3CD6E85-42DB-4752-868A-668A64093CF1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6DDF952-3D3E-4A86-8F74-433022AB1B1D}
+	EndGlobalSection
+EndGlobal
